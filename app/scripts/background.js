@@ -52,7 +52,7 @@ chrome.runtime.onMessage.addListener(
       else
       {
         var sett = {};
-        sett['shortcut'] = 'ctrl+shift+space';
+        sett['shortcut'] = 'ctrl+alt+p';
         localStorage.setItem('sfnav_settings', JSON.stringify(sett));
         sendResponse(sett);
       }
